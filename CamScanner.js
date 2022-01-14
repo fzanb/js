@@ -1,0 +1,6 @@
+Quantumult X:
+
+[rewrite_local]
+^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/fzanb/js/main/CamScanner.js
+[mitm]
+hostname = ap*.intsig.net
