@@ -3,7 +3,7 @@
 
 [rewrite_local]
 # 解锁酷我音乐会员➕听书
-^http://(.+).kuwo.cn(/v2/api/user/info|/a.p|/vip/v2/user/vip) url script-response-body https://raw.githubusercontent.com/fzanb/js/main/Kuwo.js
+^http://(.+).kuwo.cn(/v2/api/user/info|/a.p|/vip/v2/user/vip) url script-response-body https://raw.githubusercontent.com/fzanb/js/main/Kuwo2.js
 [mitm] 
 hostname = *.kuwo.cn
 ********************************
