@@ -1,4 +1,4 @@
-/*Http://t.me/ddgksf2021*/
+/*yinyintv*/
 
 var body = $response.body;
 var url = $request.url;
