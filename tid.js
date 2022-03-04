@@ -1,3 +1,18 @@
+/*
+ *
+ *
+2.40.0
+2022-02-18
+*******************************
+
+[rewrite_local]
+
+# > tidmusic
+^https?:\/\/api\.tidal\.com\/v1\/(pages\/album|(user|track|page)s\/(\d+)\/(state|subscription|lyrics|onboarding|playbackinfopostpaywall)) url script-request-header https://raw.githubusercontent.com/fzanb/js/main/tid.js
+
+[mitm] 
+
+hostname = api.tidal.com
 *
 *
 */
