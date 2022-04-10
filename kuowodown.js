@@ -1,3 +1,4 @@
+/* 
 [rewrite_local]
 ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver.+$ url script-request-body https://raw.githubusercontent.com/fzanb/js/main/kuowodown.js
 [mitm] 
